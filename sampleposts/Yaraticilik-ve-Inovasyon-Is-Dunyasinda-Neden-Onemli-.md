@@ -2,6 +2,7 @@
 title: "Yaratıcılık ve İnovasyon: İş Dünyasında Neden Önemli?"
 date: 2023-08-05
 description: "Yaratıcılık ve inovasyon, iş dünyasında rekabetçi olmanın temel unsurlarından biridir. Bu yazıda, yaratıcılığın ve inovasyonun neden bu kadar önemli olduğunu ve işletmeler için nasıl bir fark yaratabileceğini inceleyeceğiz."
+author: "admin"
 ---
 
 Yaratıcılık ve inovasyon, iş dünyasında rekabetçi olmanın temel unsurlarından biridir. Bu yazıda, yaratıcılığın ve inovasyonun neden bu kadar önemli olduğunu ve işletmeler için nasıl bir fark yaratabileceğini inceleyeceğiz.

@@ -2,6 +2,7 @@
 title: "Gezegenimiz ve İklim Değişikliği: Geleceğimizi Kurtarmak İçin Neler Yapabiliriz?"
 date: 2023-12-23
 description: "Gezegenimiz, karşılaştığı büyük çevresel tehditlerle karşı karşıya. Bunlardan biri de iklim değişikliği. İklim değişikliği, sıcaklık artışı, deniz seviyelerinin yükselmesi, aşırı hava olayları ve daha birçok olumsuz etkiye yol açmaktadır. Ancak, bu sorunları ele almak ve gezegenimizin geleceğini kurtarmak için neler yapabileceğimize dair umut verici adımlar vardır."
+author: "admin"
 ---
 
 Gezegenimiz, karşılaştığı büyük çevresel tehditlerle karşı karşıya. Bunlardan biri de iklim değişikliği. İklim değişikliği, sıcaklık artışı, deniz seviyelerinin yükselmesi, aşırı hava olayları ve daha birçok olumsuz etkiye yol açmaktadır. Ancak, bu sorunları ele almak ve gezegenimizin geleceğini kurtarmak için neler yapabileceğimize dair umut verici adımlar vardır.

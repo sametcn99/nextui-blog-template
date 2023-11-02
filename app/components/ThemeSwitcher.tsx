@@ -1,12 +1,8 @@
-// app/components/ThemeSwitcher.tsx
 "use client";
-
-// Import necessary libraries and components
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
-import { Button } from "@nextui-org/button";
 import React from "react";
-import { Switch, VisuallyHidden, useSwitch } from "@nextui-org/react";
+import { Switch } from "@nextui-org/react";
 import { MoonIcon } from "@/public/MoonIcon";
 import { SunIcon } from "@/public/SunIcon";
 

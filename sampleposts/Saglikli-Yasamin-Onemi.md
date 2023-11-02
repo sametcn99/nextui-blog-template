@@ -2,6 +2,7 @@
 title: "Sağlıklı Yaşamın Önemi"
 date: 2023-09-20
 description: "Bu makalede sağlıklı yaşamanın neden önemli olduğunu, fiziksel ve zihinsel sağlığın nasıl korunabileceğini ve sağlıklı yaşam alışkanlıklarının avantajlarını inceleyeceğiz."
+author: "admin"
 ---
 
 # Sağlıklı Yaşamın Önemi

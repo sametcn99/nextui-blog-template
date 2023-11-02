@@ -3,6 +3,7 @@ title: "Computer Engineering: Navigating the Digital Frontier and Shaping the Fu
 date: 2023-08-03
 description: "
 Computer engineering is a dynamic and ever-evolving field that plays a pivotal role in our increasingly digital world. In this article, we will explore the exciting world of computer engineering, its significance, and the profound impact it has on shaping the future of technology and society."
+author: "admin"
 ---
 
 Computer engineering is a dynamic and ever-evolving field that plays a pivotal role in our increasingly digital world. In this article, we will explore the exciting world of computer engineering, its significance, and the profound impact it has on shaping the future of technology and society.

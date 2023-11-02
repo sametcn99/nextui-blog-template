@@ -2,6 +2,7 @@
 title: "The World of Software Engineering: Crafting the Digital Landscape"
 date: 2023-11-03
 description: "Software engineering is a dynamic field that shapes the digital world we live in. In this article, we will explore the fascinating realm of software engineering, its significance, and its profound impact on our daily lives."
+author: "admin"
 ---
 
 Software engineering is a dynamic field that plays a pivotal role in the digital age, shaping the digital world we live in. In this article, we will delve into the fascinating realm of software engineering, its significance, and the profound impact it has on our daily lives.

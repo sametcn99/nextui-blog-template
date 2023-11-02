@@ -2,6 +2,7 @@
 title: "Dijital Dönüşüm ve İş Dünyası: Gelecekte İş Modelleri Nasıl Değişiyor?"
 date: 2023-09-09
 description: "Dijital dönüşüm, iş dünyasında hızla yayılan bir kavramdır ve iş modellerini kökten değiştiriyor. Bu yazıda, dijital dönüşümün iş dünyasına etkilerini ve gelecekte iş modellerinin nasıl değiştiğini inceleyeceğiz."
+author: "admin"
 ---
 
 Dijital dönüşüm, iş dünyasında hızla yayılan bir kavramdır ve iş modellerini kökten değiştiriyor. Bu yazıda, dijital dönüşümün iş dünyasına etkilerini ve gelecekte iş modellerinin nasıl değiştiğini inceleyeceğiz.

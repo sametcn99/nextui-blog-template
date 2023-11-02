@@ -2,6 +2,7 @@
 title: "Yürüyüşün Faydaları"
 date: 2023-11-01
 description: "Yürümek, vücudumuza ve zihnimize birçok fayda sağlayan basit ve etkili bir aktivitedir. Gelin, yürüyüşün faydalarını inceleyelim ve neden her gün yürüyüş yapmanız gerektiğini anlayalım."
+author: "admin"
 ---
 
 Yürümek, vücudumuza ve zihnimize birçok fayda sağlayan basit ve etkili bir aktivitedir. Gelin, yürüyüşün faydalarını inceleyelim ve neden her gün yürüyüş yapmanız gerektiğini anlayalım.

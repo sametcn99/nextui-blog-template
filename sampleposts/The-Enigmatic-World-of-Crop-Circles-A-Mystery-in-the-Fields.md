@@ -2,6 +2,7 @@
 title: "The Enigmatic World of Crop Circles: A Mystery in the Fields"
 date: 2023-11-04
 description: "Crop circles have fascinated and baffled people for decades. In this article, we will delve into the intriguing world of crop circles, their history, theories, and the enduring mystery surrounding them."
+author: "admin"
 ---
 
 Crop circles have fascinated and baffled people for decades. In this article, we will delve into the intriguing world of crop circles, their history, theories, and the enduring mystery surrounding them.

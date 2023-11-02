@@ -3,6 +3,7 @@ title: "Uzay Keşfi: İnsanlı Görevler ve Gelecekteki Yolculuklar"
 date: 2023-09-18
 description: "Uzaya olan ilgi her geçen gün artıyor ve insanoğlu, bu sonsuz evrenin sırlarını çözmek için cesur adımlar atıyor. Bu yazıda, insanlı uzay görevlerini ve gelecekteki yolculukları inceleyeceğiz.
 "
+author: "admin"
 ---
 
 Uzaya olan ilgi her geçen gün artıyor ve insanoğlu, bu sonsuz evrenin sırlarını çözmek için cesur adımlar atıyor. Bu yazıda, insanlı uzay görevlerini ve gelecekteki yolculukları inceleyeceğiz.

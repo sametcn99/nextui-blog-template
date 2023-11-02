@@ -30,6 +30,7 @@ export function getSortedPostsData() {
       title: matterResult.data.title,
       date: matterResult.data.date,
       description: matterResult.data.description,
+      author: matterResult.data.author,
     };
     //console.log(blogPost.date);
     // Combine the data with the post ID
@@ -65,6 +66,7 @@ export async function getPostData(id: string) {
     title: matterResult.data.title,
     date: matterResult.data.date,
     description: matterResult.data.description,
+    author: matterResult.data.author,
     contentHtml,
   };
 

@@ -2,6 +2,7 @@
 title: "The Transformative Power of Education: Shaping Society's Future"
 date: 2023-11-02
 description: "Education is the cornerstone of society and one of the most powerful tools shaping our future. In this article, we will explore the profound impact of education on society, the role it plays in transformation, and why education is the key to driving progress."
+author: "admin"
 ---
 
 Education is the cornerstone of society and one of the most powerful tools shaping our future. In this article, we will explore the profound impact of education on society, the role it plays in transformation, and why education is the key to driving progress.

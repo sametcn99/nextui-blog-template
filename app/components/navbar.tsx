@@ -5,7 +5,6 @@ import {
   NavbarContent,
   NavbarItem,
   Link,
-  Button,
 } from "@nextui-org/react";
 import { BrandLogo } from "@/public/logo";
 import { ThemeSwitcher } from "./ThemeSwitcher";
@@ -21,11 +20,8 @@ const NavbarComponent = () => {
         </NavbarBrand>
         <NavbarContent justify="end">
           <NavbarItem>
-            <Button as={Link} color="primary" href="#" variant="flat">
-              LOGIN
-            </Button>
+            <ThemeSwitcher />
           </NavbarItem>
-          <ThemeSwitcher />
         </NavbarContent>
       </Navbar>
     </>

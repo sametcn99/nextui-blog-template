@@ -2,6 +2,7 @@
 title: "Carl Gustav Jung: The Pioneering Psychologist Who Unveiled the Depths of the Human Psyche"
 date: 2023-10-08
 description: "Carl Gustav Jung, the Swiss psychiatrist and psychoanalyst, is widely recognized for his pioneering work in psychology and his profound insights into the human psyche. In this article, we will delve into Jung's life, his contributions to psychology, and his enduring influence on the field."
+author: "admin"
 ---
 
 Carl Gustav Jung, the Swiss psychiatrist and psychoanalyst, is widely recognized for his pioneering work in psychology and his profound insights into the human psyche. In this article, we will delve into Jung's life, his contributions to psychology, and his enduring influence on the field.
