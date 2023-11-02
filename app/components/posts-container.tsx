@@ -7,16 +7,16 @@ export default function PostsContainer() {
 
   return (
     <>
-      <div className="flex justify-center bg-red min-h-screen w-auto px-4">
-        <div className="w-[60rem] grid grid-cols-1 h-full">
+      <section className="flex justify-center px-4 w-auto min-h-screen bg-red">
+        <div className="grid grid-cols-1 h-full w-[60rem]">
           {posts.map((post) => (
             <>
               <PostCard key={post.id} post={post} />
-              <Divider className="my-4" key={post.id}/>
+              <Divider className="my-4" key={post.id} />
             </>
           ))}
         </div>
-      </div>
+      </section>
     </>
   );
 }

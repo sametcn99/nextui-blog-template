@@ -2,7 +2,6 @@
 title: "Exploring Renewable Energy Sources: A Sustainable Future"
 date: 2023-04-02
 description: "In this article, we delve into the world of renewable energy sources, their impact on the environment, and their role in building a sustainable future."
-
 ---
 
 Renewable energy sources have gained significant attention in recent years as the world seeks sustainable alternatives to traditional fossil fuels. This article explores various renewable energy sources, their benefits, and their role in reducing our carbon footprint.

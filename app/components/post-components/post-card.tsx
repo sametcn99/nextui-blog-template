@@ -8,18 +8,19 @@ type Props = {
 export default function PostCard({ post }: Props) {
   const { id, title, date, description } = post;
   const formattedDate = getFormattedDate(date);
+  const limitedDescription =
+    description.length > 300 ? description.slice(0, 300) + "..." : description;
+
   return (
     <>
-      <div className="h-full overflow-hidden mb-2">
-        <Link href={"/posts/" + id} className=" text-3xl font-semibold">
+      <div className="overflow-hidden mb-2 h-full">
+        <Link href={"/posts/" + id} className="text-3xl font-semibold">
           {title}
         </Link>
         <span className="ml-3 font-thin">{formattedDate}</span>
         <br />
-        {description}
-        <p>
-          <Link href="sample-post1">Read More...</Link>
-        </p>
+        {limitedDescription}
+        <Link href={"/posts/" + id}>Read More...</Link>
       </div>
     </>
   );

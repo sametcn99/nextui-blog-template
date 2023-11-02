@@ -34,7 +34,6 @@ export function generateMetadata({ params }: { params: { postId: string } }) {
 export default async function Post({ params }: { params: { postId: string } }) {
   const posts = getSortedPostsData(); // Getting sorted post data
   const { postId } = params; // Extracting the post ID from parameters
-
   const page = posts.find((post) => post.id === postId); // Finding the post with the given ID
   if (!page) notFound(); // Displaying a 404 error if the post is not found
   const { title, date, contentHtml } = await getPostData(postId); // Fetching post data
@@ -43,11 +42,11 @@ export default async function Post({ params }: { params: { postId: string } }) {
 
   return (
     <div className="flex justify-center w-full min-h-screen">
-      <article className="w-[70rem]">
-        <h1 className="text-3xl font-bold">{title}</h1> 
-        <p className="font-thin">{pubDate}</p> 
+      <article className="px-4 w-[60rem]">
+        <h1 className="text-3xl font-bold">{title}</h1>
+        <p className="font-thin">{pubDate}</p>
         <article>
-          <section dangerouslySetInnerHTML={{ __html: contentHtml }} /> 
+          <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
         </article>
       </article>
     </div>

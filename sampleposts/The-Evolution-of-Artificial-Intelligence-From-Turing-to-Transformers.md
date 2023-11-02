@@ -2,7 +2,6 @@
 title: "The Evolution of Artificial Intelligence: From Turing to Transformers"
 date: 2023-03-15
 description: "This article takes you on a journey through the history of artificial intelligence, from its early days to the latest advancements with transformer models."
-
 ---
 
 The field of Artificial Intelligence (AI) has witnessed remarkable growth and evolution over the decades. It all began with the idea of creating machines that could mimic human intelligence, and since then, AI has taken on various forms and applications. In this article, we embark on a journey through the history of AI, from its early theoretical concepts to the latest advancements with transformer models and deep learning.
