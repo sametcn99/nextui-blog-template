@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@nextui-org/react": "^2.1.13",
+    "@vercel/analytics": "^1.1.1",
     "framer-motion": "^10.16.4",
     "gray-matter": "^4.0.3",
     "next": "14.0.0",
