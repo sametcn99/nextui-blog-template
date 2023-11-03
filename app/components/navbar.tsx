@@ -11,20 +11,18 @@ import { ThemeSwitcher } from "./ThemeSwitcher";
 
 const NavbarComponent = () => {
   return (
-    <>
-      <Navbar shouldHideOnScroll>
-        <NavbarBrand>
-          <Link href="/">
-            <BrandLogo />
-          </Link>
-        </NavbarBrand>
-        <NavbarContent justify="end">
-          <NavbarItem>
-            <ThemeSwitcher />
-          </NavbarItem>
-        </NavbarContent>
-      </Navbar>
-    </>
+    <Navbar>
+      <NavbarBrand>
+        <Link href="/">
+          <BrandLogo />
+        </Link>
+      </NavbarBrand>
+      <NavbarContent justify="end">
+        <NavbarItem>
+          <ThemeSwitcher />
+        </NavbarItem>
+      </NavbarContent>
+    </Navbar>
   );
 };
 export default NavbarComponent;

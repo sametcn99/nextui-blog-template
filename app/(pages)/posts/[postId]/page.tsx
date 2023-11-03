@@ -2,7 +2,7 @@ import getFormattedDate from "@/app/lib/getFormattedDate"; // Importing the func
 import { getSortedPostsData, getPostData } from "@/app/lib/posts"; // Importing functions related to posts
 import { notFound } from "next/navigation"; // Importing the function to show the "not found" page
 import "./styles.css";
-
+import { Card, CardBody } from "@nextui-org/react";
 // Function to generate static page parameters
 export function generateStaticParams() {
   const posts = getSortedPostsData(); // Getting sorted post data
@@ -43,19 +43,21 @@ export default async function Post({ params }: { params: { postId: string } }) {
   const pubDate = getFormattedDate(date); // Getting a formatted version of the date
 
   return (
-    <div className="flex justify-center w-full min-h-screen">
-      <article className="px-4 w-[63rem]">
-        <p>
-          <h1 className="text-3xl font-bold">{title}</h1>
-          <p className="font-thin">
-            {pubDate} / Author: {author}
-          </p>
-        </p>
-        <article
-          dangerouslySetInnerHTML={{ __html: contentHtml }}
-          className="article"
-        />
-      </article>
+    <div className="flex justify-center px-2 mt-10 w-full min-h-screen">
+      <Card>
+        <CardBody>
+          <article className="max-w-[63rem]">
+            <h1 className="text-3xl font-bold">{title}</h1>
+            <p className="font-thin">
+              {pubDate} / Author: {author}
+            </p>
+            <article
+              dangerouslySetInnerHTML={{ __html: contentHtml }}
+              className="article"
+            />
+          </article>
+        </CardBody>
+      </Card>
     </div>
   );
 }

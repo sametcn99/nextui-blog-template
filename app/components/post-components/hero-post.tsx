@@ -10,7 +10,6 @@ export default async function HeroPost(id: any) {
   const pubDate = getFormattedDate(date); // Getting a formatted version of the date
 
   return (
-    <>
       <section className="flex justify-center items-center w-full select-none">
         <Link href={"/posts/" + postId.id}>
           <Card className="mb-8 h-full max-w-[62rem]">
@@ -23,6 +22,5 @@ export default async function HeroPost(id: any) {
           </Card>
         </Link>
       </section>
-    </>
   );
 }
