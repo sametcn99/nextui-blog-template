@@ -18,7 +18,8 @@ const config: Config = {
     },
   },
   darkMode: "class",
-  plugins: [nextui({
+  plugins: [
+    nextui({
       prefix: "nextui", // prefix for themes variables
       addCommonColors: false, // override common colors (e.g. "blue", "green", "pink").
       defaultTheme: "light", // default theme from the themes object
@@ -35,6 +36,7 @@ const config: Config = {
         },
         // ... custom themes
       },
-    }),],
+    }),
+  ],
 };
 export default config;

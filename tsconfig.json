@@ -29,7 +29,8 @@
     ".next/types/**/*.ts",
     "public/MoonIcon.jsx",
     "public/logo.jsx",
-    "app/(pages)/posts/[postId]/page.tsx"
+    "app/(pages)/posts/[postId]/page.tsx",
+    "app/components/sidebar/components/sidebar-card.tsx"
   ],
   "exclude": ["node_modules"]
 }

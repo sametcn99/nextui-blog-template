@@ -44,7 +44,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
 
   return (
     <div className="flex justify-center w-full min-h-screen">
-      <article className="px-4 w-[63rem] ">
+      <article className="px-4 w-[63rem]">
         <p>
           <h1 className="text-3xl font-bold">{title}</h1>
           <p className="font-thin">

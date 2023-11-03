@@ -7,7 +7,7 @@ export default function PostsContainer() {
 
   return (
     <>
-      <section className="flex justify-center px-4 w-auto min-h-screen bg-red">
+      <section className="flex justify-center px-4 w-full min-h-screen bg-red">
         <div className="grid grid-cols-1 h-full w-[61rem]">
           {posts.map((post) => (
             <>

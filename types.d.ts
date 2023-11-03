@@ -3,5 +3,5 @@ type BlogPost = {
   title: string;
   date: string;
   description: string;
-  author: string
+  author: string;
 };
