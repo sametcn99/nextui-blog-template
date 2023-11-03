@@ -1,5 +1,6 @@
 import HeroPost from "./components/post-components/hero-post";
 import PostsContainer from "./components/posts-container";
+import ScrollToTop from "./components/scroll-to-top";
 import Sidebar from "./components/sidebar/sidebar";
 import { Card, CardBody } from "@nextui-org/react";
 
@@ -16,6 +17,7 @@ export default function Home() {
         </CardBody>
       </Card>
       <Sidebar />
+      <ScrollToTop/>
     </div>
   );
 }
