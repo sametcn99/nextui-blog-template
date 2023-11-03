@@ -12,11 +12,12 @@ export default function PostCard({ post }: Props) {
     description.length > 300 ? description.slice(0, 300) + "..." : description;
 
   return (
-    <div className="overflow-hidden mb-2 h-full hover:ml-1">
-      <Link href={"/posts/" + id} className="text-3xl font-semibold">
+    <div className="h-full hover:ml-1">
+      <Link href={"/posts/" + id} className="text-xl font-semibold">
         {title}
       </Link>
-      <span className="ml-3 font-thin">{formattedDate}</span>
+      <br />
+      <span className="font-thin">{formattedDate}</span>
       <br />
       {limitedDescription}
       <Link href={"/posts/" + id}>Read More...</Link>
