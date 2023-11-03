@@ -12,7 +12,7 @@ export default function PostCard({ post }: Props) {
     description.length > 300 ? description.slice(0, 300) + "..." : description;
 
   return (
-    <div className="overflow-hidden mb-2 h-full">
+    <div className="overflow-hidden mb-2 h-full hover:ml-1">
       <Link href={"/posts/" + id} className="text-3xl font-semibold">
         {title}
       </Link>
