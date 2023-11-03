@@ -10,6 +10,7 @@ import { SunIcon } from "@/public/SunIcon";
 export function ThemeSwitcher() {
   // State to track whether the component is mounted
   const [mounted, setMounted] = useState(false);
+  const [isDark, setIsDark] = useState(false);
 
   // Get the current theme and the function to set the theme from the Next.js theme provider
   const { theme, setTheme } = useTheme();
@@ -17,6 +18,11 @@ export function ThemeSwitcher() {
   // Use the useEffect hook to set the component as mounted
   useEffect(() => {
     setMounted(true);
+    if (theme === "dark") {
+      setIsDark(false);
+    } else {
+      setIsDark(true);
+    }
   }, []);
 
   // If the component is not yet mounted, return null (render nothing)
@@ -26,6 +32,8 @@ export function ThemeSwitcher() {
   return (
     <Switch
       size="lg" // Set the size of the switch to large
+      // Set the default selected value of the switch to the current theme
+      defaultSelected={isDark}
       color="success" // Set the color of the switch to success (usually green)
       startContent={<SunIcon />} // Display the SunIcon on the left side of the switch
       endContent={<MoonIcon />} // Display the MoonIcon on the right side of the switch
