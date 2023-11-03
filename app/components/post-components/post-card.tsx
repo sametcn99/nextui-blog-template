@@ -20,7 +20,7 @@ export default function PostCard({ post }: Props) {
       <span className="font-thin">{formattedDate}</span>
       <br />
       {limitedDescription}
-      <Link href={"/posts/" + id}>Read More...</Link>
+      <Link href={"/posts/" + id}> Read More...</Link>
     </div>
   );
 }

@@ -35,7 +35,11 @@ export default function ScrollToTop() {
 
   // Render the "scroll to top" button, which is visible or hidden based on the 'visible' state
   return (
-    <div className={`fixed bottom-4 right-4 ${visible ? "visible" : "hidden"}`}>
+    <div
+      className={`fixed bottom-4 right-4 ${
+        visible ? "visible" : "hidden"
+      } hover:pb-1`}
+    >
       <Button isIconOnly aria-label="Scroll to Top" onClick={scrollToTop}>
         <UpArrowIcon
           size={undefined}
