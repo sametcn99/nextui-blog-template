@@ -1,6 +1,6 @@
 ---
 title: "The Chronicles of Absurdity: Mortimer's Unending Misadventures"
-date: 2023-11-11
+date: 2023-11-02
 description: "Enter the bizarre world of Mortimer, where absurdity reigns supreme, and every day is a new opportunity for misfortune to strike."
 author: "admin"
 ---

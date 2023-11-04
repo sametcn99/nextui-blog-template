@@ -1,6 +1,6 @@
 ---
 title: "The Misadventures of Mortimer: A Darkly Humorous Tale"
-date: 2023-12-12
+date: 2022-12-12
 description: "Join Mortimer, the unluckiest man alive, on a journey filled with dark humor, bizarre mishaps, and absurd predicaments."
 author: "admin"
 ---

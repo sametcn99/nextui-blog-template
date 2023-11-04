@@ -1,6 +1,6 @@
 ---
 title: "Creating a Free API with ChatGPT: Unleash the Power of Conversational AI"
-date: 2024-01-01
+date: 2023-02-08
 description: "In this article, we will explore the process of creating a free API using ChatGPT, a powerful conversational AI model by OpenAI. Discover how to harness the capabilities of ChatGPT for your own applications and projects."
 author: "admin"
 ---

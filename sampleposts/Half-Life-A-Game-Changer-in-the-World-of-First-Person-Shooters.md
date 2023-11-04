@@ -1,6 +1,6 @@
 ---
 title: "Half-Life: A Game-Changer in the World of First-Person Shooters"
-date: 2023-11-05
+date: 2023-11-04
 description: "Half-Life, a groundbreaking first-person shooter, revolutionized the gaming industry when it was released in 1998. In this comprehensive review, we'll delve into the game's history, gameplay, impact, and enduring legacy."
 author: "admin"
 ---
