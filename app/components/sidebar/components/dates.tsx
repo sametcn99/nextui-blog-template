@@ -1,25 +1,18 @@
-import { Card, CardBody } from "@nextui-org/react";
+import getFormattedDate from "@/app/lib/getFormattedDate";
+import { getSortedPostsData } from "@/app/lib/posts";
+import { Button, Card, CardBody } from "@nextui-org/react";
+import { get } from "http";
 import Link from "next/link";
+import GetDates from "../lib/get-dates";
 
 export default function Dates() {
-  const dates = [
-    "August 2023",
-    "September 2023",
-    "October 2023",
-    "November 2023",
-    "December 2023",
-    "January 2024",
-    "February 2024",
-    "March 2024",
-  ];
-
   return (
     <Card>
       <CardBody>
-        {dates.map((date, index) => (
-          <Link key={index} href={"/"} className="hover:ml-1">
-            {date}
-          </Link>
+        {GetDates().map((date, index) => (
+          <span key={index} className="hover:ml-1 select-none">
+            {GetDates()[index]}
+          </span>
         ))}
       </CardBody>
     </Card>

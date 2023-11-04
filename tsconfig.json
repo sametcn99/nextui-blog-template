@@ -31,6 +31,6 @@
     "public/logo.jsx",
     "app/(pages)/posts/[postId]/page.tsx",
     "app/components/sidebar/components/sidebar-card.tsx"
-  ],
+, "app/components/sidebar/lib/get-dates.js"  ],
   "exclude": ["node_modules"]
 }
