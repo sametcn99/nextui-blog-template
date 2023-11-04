@@ -11,7 +11,7 @@ export default function Home() {
       <Card className="mx-4">
         <CardBody>
           <section className="w-full lg:w-fit">
-            <HeroPost id="Creating-a-Free-API-with-ChatGPT-Unleash-the-Power-of-Conversational-AI" />
+            <HeroPost />
             <PostsContainer />
           </section>
         </CardBody>
