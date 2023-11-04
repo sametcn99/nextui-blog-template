@@ -3,6 +3,7 @@ import { getSortedPostsData, getPostData } from "@/app/lib/posts"; // Importing 
 import { notFound } from "next/navigation"; // Importing the function to show the "not found" page
 import "./styles.css";
 import { Card, CardBody } from "@nextui-org/react";
+
 // Function to generate static page parameters
 export function generateStaticParams() {
   const posts = getSortedPostsData(); // Getting sorted post data

@@ -1,8 +1,4 @@
-import getFormattedDate from "@/app/lib/getFormattedDate";
-import { getSortedPostsData } from "@/app/lib/posts";
-import { Button, Card, CardBody } from "@nextui-org/react";
-import { get } from "http";
-import Link from "next/link";
+import { Card, CardBody } from "@nextui-org/react";
 import GetDates from "../lib/get-dates";
 
 export default function Dates() {
@@ -10,7 +6,7 @@ export default function Dates() {
     <Card>
       <CardBody>
         {GetDates().map((date, index) => (
-          <span key={index} className="hover:ml-1 select-none">
+          <span key={index} className="select-none hover:ml-1">
             {GetDates()[index]}
           </span>
         ))}

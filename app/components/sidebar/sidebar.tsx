@@ -1,4 +1,3 @@
-import Categories from "./components/categories";
 import Dates from "./components/dates";
 
 export default function Sidebar() {

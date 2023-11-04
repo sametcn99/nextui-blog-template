@@ -1,8 +1,5 @@
 import getFormattedDate from "@/app/lib/getFormattedDate";
 import { getSortedPostsData } from "@/app/lib/posts";
-import { Card, CardBody } from "@nextui-org/react";
-import { get } from "http";
-import Link from "next/link";
 
 export default function GetDates() {
   const data = getSortedPostsData();
