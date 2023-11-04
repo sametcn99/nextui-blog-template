@@ -3,6 +3,13 @@ title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 date: 2023-10-04
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat nulla a diam tincidunt, eu dictum turpis consectetur. Nam vulputate posuere dictum. Vivamus felis nibh, pellentesque nec aliquam ac, dictum in orci. Sed at orci vel tortor fringilla sagittis. Phasellus maximus venenatis pellentesque. Vestibulum hendrerit fringilla ex sit amet rhoncus. Donec condimentum sollicitudin lacus, dignissim laoreet nibh laoreet sit amet. Cras non iaculis metus, eget gravida elit."
 author: "admin"
+keywords:
+  - Lorem ipsum
+  - dolor sit
+  - amet
+  - fringilla
+  - hendrerit
+  - laoreet
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae quam sed risus porttitor pharetra. Etiam at nunc ut orci posuere dignissim sit amet molestie lorem. Sed tincidunt finibus eros eget dapibus. Aliquam finibus nulla et pretium feugiat. In eget finibus odio. Aenean in orci ornare, ultrices sem aliquet, luctus sem. Curabitur eu placerat massa.

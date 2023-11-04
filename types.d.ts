@@ -4,4 +4,5 @@ type BlogPost = {
   date: string;
   description: string;
   author: string;
+  keywords: string[];
 };

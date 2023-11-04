@@ -24,12 +24,16 @@ export function generateMetadata({ params }: { params: { postId: string } }) {
     return {
       title: "Post Not Found", // Using "Post Not Found" as the title if the post is not found
       description: "This post does not exist.", // Add a description for SEO
+      keywords: [], // Add an empty tags array to avoid errors
+      author: "Unknown", // Add an unknown author to avoid errors
     };
   }
 
   return {
     title: post.title, // Using the post's title as the title
     description: post.description,
+    keywords: post.keywords, // Using the post's tags as the tags
+    author: post.author, // Using the post's author as the author
   };
 }
 
@@ -39,7 +43,9 @@ export default async function Post({ params }: { params: { postId: string } }) {
   const { postId } = params; // Extracting the post ID from parameters
   const page = posts.find((post) => post.id === postId); // Finding the post with the given ID
   if (!page) notFound(); // Displaying a 404 error if the post is not found
-  const { title, date, contentHtml, author } = await getPostData(postId); // Fetching post data
+  const { title, date, contentHtml, author, keywords } = await getPostData(
+    postId
+  ); // Fetching post data
 
   const pubDate = getFormattedDate(date); // Getting a formatted version of the date
 
@@ -56,6 +62,19 @@ export default async function Post({ params }: { params: { postId: string } }) {
               dangerouslySetInnerHTML={{ __html: contentHtml }}
               className="article"
             />
+            {/* Add the tags section if tags exist */}
+            {keywords && keywords.length > 0 && (
+              <div className="flex flex-row flex-wrap justify-center select-none">
+                {keywords.map((keyword, index) => (
+                  <span
+                    key={index}
+                    className="p-1 text-sm font-thin text-center rounded-full w-fit h-fit"
+                  >
+                    {keyword}
+                  </span>
+                ))}
+              </div>
+            )}
           </article>
         </CardBody>
       </Card>

@@ -3,6 +3,19 @@ title: "Space Exploration: Human Missions and Future Journeys"
 date: 2023-09-18
 description: "Interest in space is growing every day, and humanity is taking bold steps to unravel the mysteries of this infinite universe. In this article, we will examine human space missions and future journeys."
 author: "admin"
+keywords:
+  - Space exploration
+  - Human space missions
+  - Apollo missions
+  - International Space Station
+  - Mars exploration
+  - Artemis program
+  - Private space companies
+  - Asteroid mining
+  - Sustainability of life in space
+  - Commercial space travel
+  - Science and technology
+  - Exploration of other planets
 ---
 
 Interest in space is growing every day, and humanity is taking bold steps to unravel the mysteries of this infinite universe. In this article, we will examine human space missions and future journeys.

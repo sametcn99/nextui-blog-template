@@ -31,6 +31,7 @@ export function getSortedPostsData() {
       date: matterResult.data.date,
       description: matterResult.data.description,
       author: matterResult.data.author,
+      keywords: matterResult.data.keywords,
     };
     //console.log(blogPost.date);
     // Combine the data with the post ID
@@ -68,6 +69,7 @@ export async function getPostData(id: string) {
     description: matterResult.data.description,
     author: matterResult.data.author,
     contentHtml,
+    keywords: matterResult.data.keywords,
   };
 
   // Combine the data with the post's ID and return it

@@ -3,6 +3,30 @@ title: "Artificial Intelligence in Healthcare: Transforming the Medical Landscap
 date: 2023-03-27
 description: "Artificial intelligence (AI) is revolutionizing the healthcare industry, reshaping the way medical services are delivered and transforming patient care. In this article, we will explore the impact of AI in healthcare, its applications, and the challenges and opportunities it presents."
 author: "admin"
+keywords:
+  - Artificial Intelligence in Healthcare
+  - AI in Healthcare
+  - Healthcare Transformation
+  - Medical Imaging AI
+  - Personalized Treatment in Healthcare
+  - Drug Discovery with AI
+  - Predictive Analytics in Healthcare
+  - Telemedicine and AI
+  - Medical Records Management with AI
+  - Natural Language Processing in Healthcare
+  - Robot-Assisted Surgery with AI
+  - Disease Identification with AI
+  - Remote Monitoring in Healthcare
+  - Predictive Diagnosis in Healthcare
+  - Healthcare Chatbots
+  - Drug Dosage Optimization with AI
+  - Fraud Detection in Healthcare
+  - Ethical Considerations in AI Healthcare
+  - Regulatory Challenges in AI Healthcare
+  - Workforce Impact of AI in Healthcare
+  - Cost Reduction with AI in Healthcare
+  - Future Prospects of AI in Healthcare
+
 ---
 
 # Artificial Intelligence in Healthcare: Transforming the Medical Landscape

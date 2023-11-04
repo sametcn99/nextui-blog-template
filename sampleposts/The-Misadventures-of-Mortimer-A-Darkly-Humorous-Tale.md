@@ -3,6 +3,16 @@ title: "The Misadventures of Mortimer: A Darkly Humorous Tale"
 date: 2022-12-12
 description: "Join Mortimer, the unluckiest man alive, on a journey filled with dark humor, bizarre mishaps, and absurd predicaments."
 author: "admin"
+keywords:
+  - Mortimer
+  - Dark Humor
+  - Absurd Mishaps
+  - Unfortunate Events
+  - Comedy
+  - Misadventures
+  - Humorous Story
+  - Misfortuneville
+  - Unluckiest Man
 ---
 
 Once upon a time in the quaint, but perpetually gloomy town of Misfortuneville, there lived a man named Mortimer. Mortimer was known far and wide as the unluckiest man alive. His life was a dark comedy of bizarre mishaps, absurd predicaments, and a never-ending string of unfortunate events.

@@ -3,6 +3,17 @@ title: "Our Planet and Climate Change: What Can We Do to Save Our Future?"
 date: 2022-12-23
 description: "Our planet is facing significant environmental threats, one of which is climate change. Climate change leads to temperature increases, rising sea levels, extreme weather events, and many other adverse effects. However, there are hopeful steps we can take to address these issues and secure the future of our planet."
 author: "admin"
+keywords:
+  - Climate change
+  - Environmental threats
+  - Temperature increase
+  - Extreme weather events
+  - Marine life
+  - Green energy
+  - Energy conservation
+  - Sustainable transportation
+  - Plant-based diet
+  - Education and awareness
 ---
 
 Our planet is facing significant environmental threats, one of which is climate change. Climate change leads to temperature increases, rising sea levels, extreme weather events, and many other adverse effects. However, there are hopeful steps we can take to address these issues and secure the future of our planet.

@@ -3,6 +3,16 @@ title: "Fyodor Dostoevsky: Literary Genius and Deep Explorer of Human Psychology
 date: 2023-07-24
 description: "Fyodor Dostoevsky is one of the greatest writers of 19th-century Russian literature, and his works continue to be widely read and admired worldwide. In this article, we will explore Dostoevsky's literary contributions and his profound interest in the depths of human psychology"
 author: "admin"
+keywords:
+  - Fyodor Dostoevsky
+  - Russian literature
+  - Crime and Punishment
+  - The Brothers Karamazov
+  - Notes from Underground
+  - The Idiot
+  - Human psychology
+  - Moral issues
+  - Psychological realism
 ---
 
 Fyodor Dostoevsky is one of the greatest writers of 19th-century Russian literature, and his works continue to be widely read and admired worldwide. In this article, we will explore Dostoevsky's literary contributions and his profound interest in the depths of human psychology.
