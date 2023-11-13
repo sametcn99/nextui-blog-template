@@ -7,12 +7,12 @@ export default function GetDates() {
   const data = getSortedPostsData();
 
   // Initialize an object to count posts per month
-  const monthCount = {};
+  const monthCount: { [key: string]: number } = {};
 
   // Initialize arrays to store output data
-  const OutputString = [];
-  const OutputDateStart = [];
-  const OutputDateEnd = [];
+  const OutputString: string[] = [];
+  const OutputDateStart: Date[] = [];
+  const OutputDateEnd: Date[] = [];
 
   // Extract dates from the 'data' array
   const datesFromData = data.map((post) => post.date);
@@ -37,11 +37,11 @@ export default function GetDates() {
     const [year, month] = key.split('-');
 
     // Get the full month name
-    const monthName = new Date(year, month, 1).toLocaleString('en-US', { month: 'long' });
+    const monthName = new Date(parseInt(year), parseInt(month), 1).toLocaleString('en-US', { month: 'long' });
 
     // Create start and end dates for the month
-    const startDate = new Date(year, month, 1);
-    const endDate = new Date(year, month, 31);
+    const startDate = new Date(parseInt(year), parseInt(month), 1);
+    const endDate = new Date(parseInt(year), parseInt(month) + 1, 0);
 
     // Push formatted strings and date ranges into respective arrays
     OutputString.push(`${monthName} ${year} (${monthCount[key]})`);

@@ -2,8 +2,12 @@
 
 import { setStartDate, setEndDate } from "@/app/utils/dateRangeSlice";
 import { useDispatch } from "react-redux";
-
-export default function DateItems({ dates, dateStart, dateEnd }: any) {
+interface RootState {
+  dateStart: Date[];
+  dateEnd: Date[];
+  dates: string[];
+}
+export default function DateItems({ dates, dateStart, dateEnd }: RootState) {
   const dispatch = useDispatch();
   const handleStartDateChange = (newStartDate: any) => {
     dispatch(setStartDate(newStartDate));
@@ -22,7 +26,6 @@ export default function DateItems({ dates, dateStart, dateEnd }: any) {
         handleEndDateChange(dateEnd[index]);
       }}
     >
-      {console.log(index + 1)}
       {dates[index]}
     </li>
   ));
