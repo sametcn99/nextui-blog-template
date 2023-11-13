@@ -1,20 +1,29 @@
-import getFormattedDate from "@/app/lib/getFormattedDate";
+// Import the 'getSortedPostsData' function from the '@/app/lib/posts' module
 import { getSortedPostsData } from "@/app/lib/posts";
 
+// Define and export a functional component named 'GetDates'
 export default function GetDates() {
+  // Call 'getSortedPostsData' to retrieve data
   const data = getSortedPostsData();
+
+  // Initialize an object to count posts per month
   const monthCount = {};
-  const OutputString = []
-  const OutputDateStart = []
-  const OutputDateEnd = []
-  //console.log(data.map((post) => post.date));
+
+  // Initialize arrays to store output data
+  const OutputString = [];
+  const OutputDateStart = [];
+  const OutputDateEnd = [];
+
+  // Extract dates from the 'data' array
   const datesFromData = data.map((post) => post.date);
-  //console.log(datesFromData);
+
+  // Calculate post counts for each month and year
   datesFromData.map((datestring) => {
     const date = new Date(datestring);
     const year = date.getFullYear();
     const month = date.getMonth();
 
+    // Create a key in the format 'year-month'
     const key = `${year}-${month}`;
     if (key in monthCount) {
       monthCount[key]++;
@@ -22,13 +31,24 @@ export default function GetDates() {
       monthCount[key] = 1;
     }
   });
+
+  // Iterate through the keys of 'monthCount'
   for (const key in monthCount) {
     const [year, month] = key.split('-');
+
+    // Get the full month name
     const monthName = new Date(year, month, 1).toLocaleString('en-US', { month: 'long' });
-    //console.log(`${monthName} ${year} (${monthCount[key]})`);
-    OutputString.push(`${monthName} ${year} (${monthCount[key]})`)
-    OutputDateStart.push(`${year}-${month}-01`)
-    OutputDateEnd.push(`${year}-${month}-31`)
+
+    // Create start and end dates for the month
+    const startDate = new Date(year, month, 1);
+    const endDate = new Date(year, month, 31);
+
+    // Push formatted strings and date ranges into respective arrays
+    OutputString.push(`${monthName} ${year} (${monthCount[key]})`);
+    OutputDateStart.push(startDate);
+    OutputDateEnd.push(endDate);
   }
+
+  // Return an object with the calculated data
   return { OutputString, OutputDateStart, OutputDateEnd };
 }

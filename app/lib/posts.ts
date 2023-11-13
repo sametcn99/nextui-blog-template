@@ -43,7 +43,7 @@ export function getSortedPostsData() {
   return allPostsData.sort((a, b) => (a.date < b.date ? 1 : -1));
 }
 
-export function getPostsInDateRange(startDate: any, endDate: any) {
+export const getPostsInDateRange = (startDate: any, endDate: any) => {
   console.log("startDate: " + startDate + "\nendDate: " + endDate);
   // Get all posts
   const allPostsData = getSortedPostsData();
@@ -54,7 +54,7 @@ export function getPostsInDateRange(startDate: any, endDate: any) {
     return postDate >= startDate && postDate <= endDate;
   });
   return postsInDateRange;
-}
+};
 
 // This asynchronous function retrieves and processes data for a specific blog post.
 export async function getPostData(id: string) {

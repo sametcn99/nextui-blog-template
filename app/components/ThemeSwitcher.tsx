@@ -23,7 +23,7 @@ export function ThemeSwitcher() {
     } else {
       setIsDark(true);
     }
-  }, []);
+  }, [theme]);
 
   // If the component is not yet mounted, return null (render nothing)
   if (!mounted) return null;

@@ -17,7 +17,6 @@ export default function Home() {
         </CardBody>
       </Card>
       <Sidebar />
-      <ScrollToTop />
     </div>
   );
 }
