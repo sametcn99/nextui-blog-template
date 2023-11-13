@@ -3,6 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
+import exp from "constants";
 
 // The directory where blog post files are stored.
 const postsDirectory = path.join(process.cwd(), "sampleposts");
@@ -40,6 +41,19 @@ export function getSortedPostsData() {
 
   // Sort the posts by date in descending order
   return allPostsData.sort((a, b) => (a.date < b.date ? 1 : -1));
+}
+
+export function getPostsInDateRange(startDate: any, endDate: any) {
+  console.log("startDate: " + startDate + "\nendDate: " + endDate);
+  // Get all posts
+  const allPostsData = getSortedPostsData();
+
+  // Filter posts that fall within the specified date range
+  const postsInDateRange = allPostsData.filter((post) => {
+    const postDate = new Date(post.date);
+    return postDate >= startDate && postDate <= endDate;
+  });
+  return postsInDateRange;
 }
 
 // This asynchronous function retrieves and processes data for a specific blog post.

@@ -4,13 +4,13 @@ import { getSortedPostsData } from "@/app/lib/posts";
 export default function GetDates() {
   const data = getSortedPostsData();
   const monthCount = {};
-  const Output = []
+  const OutputString = []
+  const OutputDateStart = []
+  const OutputDateEnd = []
   //console.log(data.map((post) => post.date));
   const datesFromData = data.map((post) => post.date);
   //console.log(datesFromData);
   datesFromData.map((datestring) => {
-    getFormattedDate(datestring);
-    //console.log(getFormattedDate(datestring));
     const date = new Date(datestring);
     const year = date.getFullYear();
     const month = date.getMonth();
@@ -26,7 +26,9 @@ export default function GetDates() {
     const [year, month] = key.split('-');
     const monthName = new Date(year, month, 1).toLocaleString('en-US', { month: 'long' });
     //console.log(`${monthName} ${year} (${monthCount[key]})`);
-    Output.push(`${monthName} ${year} (${monthCount[key]})`)
+    OutputString.push(`${monthName} ${year} (${monthCount[key]})`)
+    OutputDateStart.push(`${year}-${month}-01`)
+    OutputDateEnd.push(`${year}-${month}-31`)
   }
-  return Output;
+  return { OutputString, OutputDateStart, OutputDateEnd };
 }
