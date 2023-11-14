@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://nextui-blog-template.vercel.app/
+
+# Sitemaps
+Sitemap: https://nextui-blog-template.vercel.app/sitemap.xml
