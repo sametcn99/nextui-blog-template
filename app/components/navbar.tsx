@@ -24,11 +24,10 @@ const NavbarComponent = () => {
         </Link>
       </NavbarBrand>
       <NavbarContent justify="end">
-        {" "}
         {/* Specify the alignment of content in the NavbarContent component. */}
         <Tooltip content="Switch Theme" delay={0} closeDelay={100}>
           {/* Add a Tooltip component with content and delay settings. */}
-          <NavbarItem>
+          <NavbarItem id=":r0:">
             {/* Create a navigation item in the Navbar. */}
             {<ThemeSwitcher />} {/* Render the ThemeSwitcher component. */}
           </NavbarItem>

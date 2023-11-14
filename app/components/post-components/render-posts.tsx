@@ -23,9 +23,6 @@ export default function RenderPosts({ posts }: any) {
   const startDate = dateRange.startDate;
   const endDate = dateRange.endDate;
 
-  // Log the 'startDate' and 'endDate' values to the console
-  console.log(startDate, endDate);
-
   // Define an effect that runs when 'startDate', 'endDate', or 'dateRange' changes
   useEffect(() => {
     // Check if 'dateRange' exists
@@ -53,9 +50,9 @@ export default function RenderPosts({ posts }: any) {
 
   // Render each post as a 'PostCard' component separated by a 'Divider'
   return postsToShow.map((post: BlogPost, index: number) => (
-    <>
+    <div key={`${index}-post`}>
       <PostCard post={post} key={`${index}-post-card`} />
       <Divider className="my-4" key={`${index}-divider`} />
-    </>
+    </div>
   ));
 }

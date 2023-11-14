@@ -31,6 +31,8 @@ export function ThemeSwitcher() {
   // Render a Switch component that toggles between light and dark themes
   return (
     <Switch
+      id="theme-switcher"
+      name="switch-theme"
       size="lg" // Set the size of the switch to large
       // Set the default selected value of the switch to the current theme
       defaultSelected={isDark}
