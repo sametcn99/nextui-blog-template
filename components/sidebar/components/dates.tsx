@@ -1,6 +1,5 @@
 import { Card, CardBody } from "@nextui-org/react";
-import GetDates from "../lib/get-dates";
-import { getPostsInDateRange } from "@/app/lib/posts";
+import GetDates from "../../../app/utils/get-dates";
 import DateItems from "./dateItems";
 
 export default function Dates() {

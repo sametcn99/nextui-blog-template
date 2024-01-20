@@ -2,7 +2,7 @@
 "use client";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
 import { Provider } from "react-redux";
-import store from "@/app/utils/store";
+import store from "@/app/lib/redux/store";
 import { NextUIProvider } from "@nextui-org/react";
 
 // Define and export the 'Providers' component, which wraps other components with context providers

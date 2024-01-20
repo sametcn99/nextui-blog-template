@@ -1,6 +1,6 @@
 // Import the 'Link' component from 'next/link' and the 'getFormattedDate' function
 import Link from "next/link";
-import getFormattedDate from "@/app/lib/getFormattedDate";
+import getFormattedDate from "@/app/utils/getFormattedDate";
 
 // Define the 'Props' type for the 'PostCard' component
 type Props = {

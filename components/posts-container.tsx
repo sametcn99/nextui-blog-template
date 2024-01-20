@@ -1,5 +1,4 @@
-import { getSortedPostsData } from "../lib/posts"; // Import the getSortedPostsData function from a relative path.
-
+import { getSortedPostsData } from "@/app/utils/posts";
 import RenderPosts from "./post-components/render-posts"; // Import the RenderPosts component from a relative path.
 
 export default function PostsContainer() {

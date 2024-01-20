@@ -1,7 +1,14 @@
 // Import the 'getSortedPostsData' function from the '@/app/lib/posts' module
-import { getSortedPostsData } from "@/app/lib/posts";
+import { getSortedPostsData } from "@/app/utils/posts";
 
 // Define and export a functional component named 'GetDates'
+/**
+ * Gets aggregated date ranges and post counts from blog posts.
+ * Retrieves all blog posts, aggregates them by month and year, and returns:
+ * - An array of formatted string labels for each month-year.
+ * - An array of JS Date objects with the start of each month.
+ * - An array of JS Date objects with the end of each month.
+ */
 export default function GetDates() {
   // Call 'getSortedPostsData' to retrieve data
   const data = getSortedPostsData();
@@ -34,10 +41,14 @@ export default function GetDates() {
 
   // Iterate through the keys of 'monthCount'
   for (const key in monthCount) {
-    const [year, month] = key.split('-');
+    const [year, month] = key.split("-");
 
     // Get the full month name
-    const monthName = new Date(parseInt(year), parseInt(month), 1).toLocaleString('en-US', { month: 'long' });
+    const monthName = new Date(
+      parseInt(year),
+      parseInt(month),
+      1
+    ).toLocaleString("en-US", { month: "long" });
 
     // Create start and end dates for the month
     const startDate = new Date(parseInt(year), parseInt(month), 1);

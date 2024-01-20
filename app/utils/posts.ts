@@ -3,12 +3,17 @@ import path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
-import exp from "constants";
 
 // The directory where blog post files are stored.
 const postsDirectory = path.join(process.cwd(), "sampleposts");
 
 // This function retrieves and sorts data from Markdown files representing blog posts.
+/**
+ * Gets all posts data sorted by date in descending order.
+ *
+ * Reads the Markdown files from the posts directory, parses the metadata,
+ * and returns an array of BlogPost objects sorted by date.
+ */
 export function getSortedPostsData() {
   // Get file names under /posts directory
   const fileNames = fs.readdirSync(postsDirectory);
@@ -43,6 +48,14 @@ export function getSortedPostsData() {
   return allPostsData.sort((a, b) => (a.date < b.date ? 1 : -1));
 }
 
+/**
+ * Filters the posts from getSortedPostsData() to only
+ * include posts with a date between the given start and end dates.
+ *
+ * @param startDate - The minimum date for posts to include
+ * @param endDate - The maximum date for posts to include
+ * @returns The filtered array of posts within the date range
+ */
 export const getPostsInDateRange = (startDate: any, endDate: any) => {
   console.log("startDate: " + startDate + "\nendDate: " + endDate);
   // Get all posts
@@ -57,6 +70,10 @@ export const getPostsInDateRange = (startDate: any, endDate: any) => {
 };
 
 // This asynchronous function retrieves and processes data for a specific blog post.
+/**
+ * Retrieves the metadata and content for a blog post by ID, converts the content from Markdown to HTML,
+ * and returns a BlogPost object enriched with the generated HTML content.
+ */
 export async function getPostData(id: string) {
   // Construct the full path to the Markdown file for the specified post
   const fullPath = path.join(postsDirectory, `${id}.md`);

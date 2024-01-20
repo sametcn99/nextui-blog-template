@@ -1,5 +1,10 @@
-import { getSortedPostsData } from "@/app/lib/posts"; // Import the getSortedPostsData function from the specified module.
+import { getSortedPostsData } from "@/app/utils/posts"; // Import the getSortedPostsData function from the specified module.
 
+/**
+ * Get a random post.
+ * Gets all post data, selects a random post, and returns the id of the random post.
+ * @returns {string} The id of a random post.
+ */
 function GetRandomPost() {
   const allPostsData = getSortedPostsData(); // Call the getSortedPostsData function to get an array of post data.
   const randomPost =

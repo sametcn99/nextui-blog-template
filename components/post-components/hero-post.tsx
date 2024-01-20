@@ -1,7 +1,7 @@
 // Import necessary modules and components
-import getFormattedDate from "@/app/lib/getFormattedDate";
-import GetRandomPost from "@/app/lib/getRandomPost";
-import { getPostData } from "@/app/lib/posts";
+import getFormattedDate from "@/app/utils/getFormattedDate";
+import GetRandomPost from "@/app/utils/getRandomPost";
+import { getPostData } from "@/app/utils/posts";
 import { Card, CardBody } from "@nextui-org/react";
 import Link from "next/link";
 

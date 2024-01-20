@@ -1,5 +1,5 @@
-import getFormattedDate from "@/app/lib/getFormattedDate"; // Importing the function to format dates
-import { getSortedPostsData, getPostData } from "@/app/lib/posts"; // Importing functions related to posts
+import getFormattedDate from "@/app/utils/getFormattedDate"; // Importing the function to format dates
+import { getSortedPostsData, getPostData } from "@/app/utils/posts"; // Importing functions related to posts
 import { notFound } from "next/navigation"; // Importing the function to show the "not found" page
 import "./styles.css";
 import { Card, CardBody } from "@nextui-org/react";
@@ -7,7 +7,6 @@ import { Card, CardBody } from "@nextui-org/react";
 // Function to generate static page parameters
 export function generateStaticParams() {
   const posts = getSortedPostsData(); // Getting sorted post data
-
   return posts.map((post) => ({
     postId: post.id, // Using the post's ID as a parameter
   }));

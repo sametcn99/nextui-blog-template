@@ -1,6 +1,5 @@
 "use client";
-
-import { setStartDate, setEndDate } from "@/app/utils/dateRangeSlice";
+import { setStartDate, setEndDate } from "@/app/lib/redux/dateRangeSlice";
 import { useDispatch } from "react-redux";
 interface RootState {
   dateStart: Date[];
