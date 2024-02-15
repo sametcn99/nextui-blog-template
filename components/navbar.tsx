@@ -12,6 +12,7 @@ import {
 import { BrandLogo } from "@/public/logo"; // Import the BrandLogo component from a relative path.
 
 import { ThemeSwitcher } from "./ThemeSwitcher"; // Import the ThemeSwitcher component from a relative path.
+import Image from "next/image";
 
 const NavbarComponent = () => {
   return (
@@ -24,6 +25,17 @@ const NavbarComponent = () => {
         </Link>
       </NavbarBrand>
       <NavbarContent justify="end">
+        <NavbarItem>
+          <Link href="https://sametcc.me/nextui-blog-template" target="_blank">
+            <Image
+              width={25}
+              height={25}
+              src="/github-mark/github-mark.svg"
+              alt="github"
+              className="hover:scale-105 transition-all duration-200"
+            />
+          </Link>
+        </NavbarItem>
         {/* Specify the alignment of content in the NavbarContent component. */}
         <Tooltip content="Switch Theme" delay={0} closeDelay={100}>
           {/* Add a Tooltip component with content and delay settings. */}
