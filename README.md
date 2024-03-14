@@ -2,6 +2,13 @@
 
 The Next UIBlogTemplate is a powerful foundation for crafting your very own blog website using Next.js, coupled with sleek UI components from Next UI. This template not only jumpstarts your project but also ensures a responsive and customizable blog experience. Key features include dynamic routing, code splitting, and server-side rendering.
 
+## Note
+
+- An application is set up to render blog pages using markdown files. Each markdown file corresponds to a blog post, and its filename determines the URL at which the post will be accessible.
+- For instance, if there's a markdown file named `my-first-blog-post.md`, the application will render that blog post at `https://next-uiblogtemplate.vercel.app/blog/my-first-blog-post`.
+- To simplify the process of renaming markdown files to adhere to this format, you can utilize the [Markdown File Renamer Web App](https://markdown-file-renamer-web-app.vercel.app).
+- This tool automates the renaming process, ensuring that your markdown files are correctly formatted for the application to render them as blog posts.
+
 ## Tech Stack
 
 ### Frontend
